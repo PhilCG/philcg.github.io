@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Base</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div id='root'>
+        <div id='roof'>
+            <div id='bar'>
+                <div id='head0'><img src="images/head0.jpg"></div>
+                <div id='bar_right'>
+                    <div id='grids'>
+                        <div id='grid_0' class='grids' onclick="window.open('#','_self')">首页</div>
+                        <div id='grid_1' class='grids'>福利产品</div>
+                        <div id='grid_2' class='grids'>漕福利</div>
+                        <div id='grid_3' class='grids'>关于我们</div>
+                    </div>
+                    <div id='login' onclick="window.open('#','_self')"><img src="images/login.jpg"></div>
+                    <div id='menu_ox'>
+                        <img id='menu_o' class='' src="images/menu_o.jpg">
+                        <img id='menu_x' class='dn' src="images/menu_x.jpg">
+                    </div>
+                </div>
+                <div class='clear'></div>
+            </div>
+            <div id='sub_bar'>
+                <div id='sub_bar_1' class='blue_bg'>
+                    <div class='blue_bg sub_bar_space'></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">拓展培训 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">积分畅淘 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">年节福利 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">健康关怀 <img src="images/arrow_gold.png"></div>
+                </div>
+                <div id='sub_bar_2' class='blue_bg'>
+                    <div class='blue_bg sub_bar_space'></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">健康关怀 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">年节福利 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">积分畅淘 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">拓展培训 <img src="images/arrow_gold.png"></div>
+                </div>
+                <div id='sub_bar_3' class='blue_bg'>
+                    <div class='blue_bg sub_bar_space'></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">年节福利 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">健康关怀 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">拓展培训 <img src="images/arrow_gold.png"></div>
+                    <div class='grids blue_bg' onclick="window.open('#','_self')">积分畅淘 <img src="images/arrow_gold.png"></div>
+                </div>
+                <div class='clear'></div>
+            </div>
+            <!--main-->
+            <div id='main'>
+                <div id='p1'>
+                    <div id='p1_box'>
+                        <div id='p1_login'>
+                            <div id='p1_login_p'>个人登录</div>
+                            <div id='p1_login_c'>企业登录</div>
+                        </div>
+                        <form id='p1_input'>
+                            账号<br>
+                            <input type="text" name="user" id='p1_input_user' placeholder="    请输入 用户名/工号/邮箱/手机号码" onblur="check_user()"><br>
+                            密码<br>
+                            <input type="password" name="password" id='p1_input_password' placeholder="    请输入 登录密码" onblur="check_pw()"><br>
+                            验证码<br>
+                            <input type="text" name="vcode" id='p1_input_vcode' placeholder="    请输入 验证码">
+                            <div id='p1_vcode'></div>
+                            <div class='clear'></div>
+
+                            <div id="p1_vcode-new"><span class='blue'>看不清，换一个</span></div>
+                            <button id='p1_button'>登录</button>
+
+                            <input type="checkbox" name="checkbox" id='p1_checkbox'>
+                            <p id='p1_memory'>自动登录</p>
+                            <p id='p1_forget'>忘记密码</p>
+                            <div class='clear'></div>
+                            <span id='p1_moreway'>更多登录方式</span>
+                            <img id='p1_weixin' src="images/weixin.jpg">
+                        </form>
+                        
+                        
+                    </div>
+                    <div id='p1ab'>
+                        <div id='p1ab_bg'><img src="images/p1ab_bg.jpg"></div>
+                    </div>
+                    <div id='p1c'>
+                        <div id='p1c_bg'><img src="images/p1c_bg.jpg"></div>
+                    </div>
+                    <!--div id="p1_t">
+
+                    </div-->
+                </div>
+                <div class='clear'></div>
+                
+            </div>
+
+            <div id='foot'>
+                <div id='p8'>
+                    <div id='p8_logo'>
+                        <div class='p8_logo'><img src="images/p8_logo1.jpg"></div>
+                        <div class='p8_logo'><img src="images/p8_logo2.jpg"></div>
+                        <div class='p8_logo'><img src="images/p8_logo3.jpg"></div>
+                        <div class='p8_logo'><img src="images/p8_logo4.jpg"></div>
+                    </div>
+                    <div class='clear'></div>
+                </div>
+                <div id='foot_a'>
+                    <div id='foot_a_logo'>
+                        <img src="images/foot_logo.png">
+                    </div>
+                    <div id='foot_a_list'>
+                        <div id='foot_a_list1'>
+                            <div class='foot_h' onclick="window.open('#','_self')">首页</div>
+                            <div onclick="window.open('#','_self')">积分商城</div>
+                            <div onclick="window.open('#','_self')">公司培训</div>
+                            <div onclick="window.open('#','_self')">体检福利</div>
+                            <div onclick="window.open('#','_self')">年节福利</div>
+                        </div>
+                        <div id='foot_a_list2'>
+                            <div class='foot_h' onclick="window.open('#','_self')">帮助中心</div>
+                            <div onclick="window.open('#','_self')">常见问题</div>
+                            <div onclick="window.open('#','_self')">使用帮助</div>
+                            <div onclick="window.open('#','_self')">关于我们</div>
+                        </div>
+                        <div id='foot_a_list3'>
+                            <div class='foot_h' onclick="window.open('#','_self')">系统登录</div>
+                            <div onclick="window.open('#','_self')">企业中心</div>
+                            <div onclick="window.open('#','_self')">个人中心</div>
+                            <div onclick="window.open('#','_self')">积分商城</div>
+                        </div>
+                    </div>
+                    <div id='foot_a_contect'>
+                        <p class='foot_h'>联系我们</p>
+                        <div id='foot_a_contect_'>
+                            <div id='foot_a_contect_p'>
+                                <img src="images/p6_bg.jpg">
+                            </div>
+                            <div id='foot_a_contect_t'>
+                                <p>咨询电话</p>
+                                <p class='foot_num'>400-400-4000</p>
+                                <p>客服邮箱</p>
+                                <p class='foot_h'>a@b.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id='foot_bar'>上海临港漕河泾人才有限公司版权所有&nbsp&nbsp&nbsp沪ICP</div>
+            </div>
+        </div>
+        <div id='menu'>
+            <div id='menu_0' class='menus blue_bg' onclick="window.open('#','_self')">首页</div>
+            <div id='menu_1' class='menus blue_bg'>
+                福利产品
+                <div id='menu_1ox'>
+                    <img id='menu_1o' class='' src="images/menu_o2.png">
+                    <img id='menu_1x' class='dn' src="images/menu_x2.png">
+                </div>
+            </div>
+            <div id='menu_1_n'>
+                <div id='menu_1_1' class='menus blue_bg2' onclick="window.open('#','_self')">健康关怀</div>
+                <div id='menu_1_2' class='menus blue_bg2' onclick="window.open('#','_self')">年节福利</div>
+                <div id='menu_1_3' class='menus blue_bg2' onclick="window.open('#','_self')">健康关怀</div>
+                <div id='menu_1_4' class='menus blue_bg2' onclick="window.open('#','_self')">年节福利</div>
+            </div>
+            <div id='menu_2' class='menus blue_bg'>
+                漕福利
+                <div id='menu_2ox'>
+                    <img id='menu_2o' class='' src="images/menu_o2.png">
+                    <img id='menu_2x' class='dn' src="images/menu_x2.png">
+                </div>
+            </div>
+            <div id='menu_2_n'>
+                <div id='menu_2_1' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+                <div id='menu_2_2' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+                <div id='menu_2_3' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+                <div id='menu_2_4' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+            </div>
+            <div id='menu_3' class='menus blue_bg'>
+                年节福利
+                <div id='menu_3ox'>
+                    <img id='menu_3o' class='' src="images/menu_o2.png">
+                    <img id='menu_3x' class='dn' src="images/menu_x2.png">
+                </div>
+            </div>
+            <div id='menu_3_n'>
+                <div id='menu_3_1' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+                <div id='menu_3_2' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+                <div id='menu_3_3' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+                <div id='menu_3_4' class='menus blue_bg2' onclick="window.open('#','_self')"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

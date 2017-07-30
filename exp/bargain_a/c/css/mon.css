@@ -1,0 +1,64 @@
+@charset "UTF-8";
+.xt {
+    position: absolute;
+    z-index: 1;
+}
+
+.shuzi-juli {
+    top: 160px;
+    left: 20px;
+}
+
+.leixing-juli {
+    top: 233px;
+    right: 20px;
+}
+
+.no-shuzi-juli {
+    top: 166px;
+    left: 20px;
+}
+
+.wenzi {
+    color: red;
+    font-size: 25px;
+}
+
+.cuda {
+    font-size: 36px;
+}
+
+.wanle1 {
+    top: 55.1%;
+    left: 17%;
+}
+
+.wanle1 span {
+    vertical-align: middle;
+}
+
+.c-red {
+    color: red;
+}
+
+.c-hei {
+    color: #333333;
+}
+
+.tg-wenzi {
+    font-size: 16.5px;
+    top: 327px;
+    left: 20px;
+    line-height: 21px;
+    color: #e00000;
+}
+.tg2 .tg-wenzi2 {
+    position: relative;
+    font-size: 16.5px;
+    height: 66px;
+    margin-top: -66px;
+    z-index: 2;
+    left: 24px;
+    line-height: 21px;
+    color: #e00000;
+}
